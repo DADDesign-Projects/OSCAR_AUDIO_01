@@ -3,6 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Hardware](https://img.shields.io/badge/hardware-PCB-green.svg)
 ![Audio](https://img.shields.io/badge/audio-DSP-orange.svg)
+![KiCad](https://img.shields.io/badge/KiCad-9.0-blue.svg)
 
 ## 📋 Description
 
@@ -26,6 +27,9 @@ Dedicated electronic board implementing the audio section of the OSCAR effects p
 - **Input Voltage**: 12V DC
 - **Low Noise Regulation**: Multiple LDO regulators
 - **Consumption**: < 150mA
+- 
+## 🛠️ Design Tools
+This project was entirely designed using **KiCad 9.0**, the open-source electronics design.
   
 # 📬 Contact
 Feel free to contact me for any questions, feedback, improvement suggestions, or collaboration proposals related to the FORGE framework or the OSCAR hardware platform.
