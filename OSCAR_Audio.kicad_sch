@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "867ce2f3-3a95-4634-9d6e-934c4fecdc67")
+	(paper "A4")
+	(title_block
+		(title "OSCAR Audio 1.0")
+		(date "2025-05-30")
+		(rev "2")
+		(company "DAD Design")
+	)
+	(lib_symbols)
+	(sheet
+		(at 160.02 31.75)
+		(size 80.01 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6881cd18-d214-46ba-96dd-b3fe5f0d7c99")
+		(property "Sheetname" "Digital"
+			(at 160.02 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital.kicad_sch"
+			(at 160.02 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSCAR_Audio"
+				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 101.6)
+		(size 68.58 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bf698c6-17a5-4321-a583-f7347388cd71")
+		(property "Sheetname" "Alim"
+			(at 50.8 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alim.kicad_sch"
+			(at 50.8 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSCAR_Audio"
+				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 33.02)
+		(size 71.12 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ccbf74ef-1348-41e2-b647-046f70e2d4ad")
+		(property "Sheetname" "Analog"
+			(at 50.8 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog.kicad_sch"
+			(at 50.8 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OSCAR_Audio"
+				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

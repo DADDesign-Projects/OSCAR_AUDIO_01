@@ -1,0 +1,173 @@
+(footprint "Jack 6.25"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f28eca19-67e6-47e5-a4a6-07736e54400c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Jack 6.25"
+		(at 0 0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4c193b7-98ce-4031-876f-e8b9817622c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0439b8ba-a27d-4a10-bd44-6183e07a5285")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cc4413f-7b62-47ee-91ad-26587eec40c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start -11.2 -4.5)
+		(end -8.7 4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1fa15dd7-9c58-4f7a-b7c4-cc42fd886715")
+	)
+	(fp_rect
+		(start -8.7 -10.5)
+		(end 8.7 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3e875970-e4f6-4c93-931e-217e6b06d6b1")
+	)
+	(fp_rect
+		(start -11.8 -10.9)
+		(end 12.6 10.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6cad0610-f6b4-4d53-84dd-9a8443880831")
+	)
+	(fp_rect
+		(start 8.75 -5.9)
+		(end 12.25 5.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "6f13e9f4-acbf-4e5b-b852-e585c9828cd6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "284cc424-fdd4-4b0a-9ce4-b466abcf4937")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "R" thru_hole oval
+		(at 0 -8.1)
+		(size 2.6 1.8)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "331975b0-21a4-46d8-8000-8dd3f7886672")
+	)
+	(pad "RN" thru_hole oval
+		(at 0 8.1)
+		(size 2.6 1.8)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d39bc3b-0f9e-4c80-9eda-ca28cae87c1b")
+	)
+	(pad "S" thru_hole oval
+		(at 6.3 -8.1)
+		(size 2.6 1.8)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc3c1372-f0bf-479d-a893-cfdd68134cec")
+	)
+	(pad "SN" thru_hole oval
+		(at 6.3 8.1)
+		(size 2.6 1.8)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46edd947-a385-45a9-8699-a1e0f402dfc6")
+	)
+	(pad "T" thru_hole oval
+		(at -6.3 -8.1)
+		(size 2.6 1.8)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5538f117-0721-4595-89dd-86c8adfecf11")
+	)
+	(pad "TN" thru_hole oval
+		(at -6.3 8.1)
+		(size 2.6 1.8)
+		(drill oval 1.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e436dae5-3676-43f9-ac84-5a23e757014b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib/Jack1_4.stp"
+		(offset
+			(xyz -10 -1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
