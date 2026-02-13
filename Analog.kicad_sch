@@ -3920,6 +3920,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "AOP FET Input\n(high cost)\nOPA1656\nOPA1642\nOPA2134\nTL072\n(low cost)"
+		(exclude_from_sim no)
+		(at 154.432 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a70a231-fb8b-43de-b3c0-2daa8c253316")
+	)
 	(junction
 		(at 181.61 44.45)
 		(diameter 0)
@@ -8470,7 +8480,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA1612"
+		(property "Value" "OPA1642"
 			(at 137.16 58.42 0)
 			(effects
 				(font
@@ -12136,7 +12146,7 @@
 				)
 			)
 		)
-		(property "Value" "OPA1612"
+		(property "Value" "OPA1642"
 			(at 138.43 25.4 0)
 			(effects
 				(font

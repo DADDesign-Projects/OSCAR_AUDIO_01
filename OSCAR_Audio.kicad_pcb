@@ -22593,8 +22593,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "OPA1612"
-			(at -1.4525 4.085 0)
+		(property "Value" "OPA1642"
+			(at -1.2825 4.845 0)
 			(layer "B.SilkS")
 			(uuid "7b1b2dda-e658-4826-af56-ad344c0e461c")
 			(effects
