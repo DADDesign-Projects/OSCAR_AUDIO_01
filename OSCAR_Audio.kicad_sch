@@ -5,9 +5,9 @@
 	(uuid "867ce2f3-3a95-4634-9d6e-934c4fecdc67")
 	(paper "A4")
 	(title_block
-		(title "OSCAR Audio 1.0")
+		(title "OSCAR Audio 01 V2")
 		(date "2025-05-30")
-		(rev "2")
+		(rev "2.1")
 		(company "DAD Design")
 	)
 	(lib_symbols)

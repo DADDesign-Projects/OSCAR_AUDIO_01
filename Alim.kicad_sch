@@ -5,9 +5,9 @@
 	(uuid "f8192b69-80c4-490c-bc65-39747e908b15")
 	(paper "A4")
 	(title_block
-		(title "OSCAR Audio 1.0")
+		(title "OSCAR Audio 01 V2")
 		(date "2025-05-30")
-		(rev "2")
+		(rev "2.1")
 		(company "DAD Design")
 	)
 	(lib_symbols
@@ -4426,6 +4426,28 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 107.95 83.82)
+		(end 152.4 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3feccc2d-25ef-40b4-b9ed-62f056b3751a)
+	)
+	(text "Option\n1M and 100n\nor\nR0"
+		(exclude_from_sim no)
+		(at 141.224 90.932 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "3bead6c9-8eca-404f-a9d7-47ca70b5ae6f")
 	)
 	(junction
 		(at 132.08 73.66)
