@@ -9191,7 +9191,7 @@
 				)
 			)
 		)
-		(property "Value" "Option"
+		(property "Value" "1k"
 			(at 100.076 162.814 0)
 			(effects
 				(font
@@ -9798,7 +9798,7 @@
 				)
 			)
 		)
-		(property "Value" "Option"
+		(property "Value" "1K"
 			(at 100.584 126.492 0)
 			(effects
 				(font

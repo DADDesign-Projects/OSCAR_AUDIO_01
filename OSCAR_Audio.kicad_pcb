@@ -12032,7 +12032,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/ccbf74ef-1348-41e2-b647-046f70e2d4ad/c3924f81-cc41-4db4-9ebc-67213d0c2c89")
+		(path "/ccbf74ef-1348-41e2-b647-046f70e2d4ad/fdbc2780-b899-496e-bd57-bc19518b6f7a")
 		(sheetname "/Analog/")
 		(sheetfile "Analog.kicad_sch")
 		(attr smd)
@@ -25776,7 +25776,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Option"
+		(property "Value" "1K"
 			(at -0.1 -2.06 0)
 			(layer "B.SilkS")
 			(uuid "5ef9781c-11a2-4481-a35c-6436b53914d0")
@@ -27149,7 +27149,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Option"
+		(property "Value" "1k"
 			(at 2.15 3.7 0)
 			(layer "B.SilkS")
 			(uuid "0eaded04-275d-4022-a632-874af008c157")
