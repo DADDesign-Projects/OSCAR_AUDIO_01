@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "867ce2f3-3a95-4634-9d6e-934c4fecdc67")
 	(paper "A4")
 	(title_block
-		(title "OSCAR Audio 01 V2")
+		(title "OSCAR Audio 01 V2.1")
 		(date "2025-05-30")
-		(rev "2.1")
+		(rev "1.0")
 		(company "DAD Design")
 	)
 	(lib_symbols)
@@ -24,11 +24,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6881cd18-d214-46ba-96dd-b3fe5f0d7c99")
 		(property "Sheetname" "Digital"
 			(at 160.02 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,6 +40,8 @@
 		)
 		(property "Sheetfile" "Digital.kicad_sch"
 			(at 160.02 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,11 +70,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6bf698c6-17a5-4321-a583-f7347388cd71")
 		(property "Sheetname" "Alim"
 			(at 50.8 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,6 +86,8 @@
 		)
 		(property "Sheetfile" "Alim.kicad_sch"
 			(at 50.8 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -108,11 +116,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ccbf74ef-1348-41e2-b647-046f70e2d4ad")
 		(property "Sheetname" "Analog"
 			(at 50.8 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,6 +132,8 @@
 		)
 		(property "Sheetfile" "Analog.kicad_sch"
 			(at 50.8 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

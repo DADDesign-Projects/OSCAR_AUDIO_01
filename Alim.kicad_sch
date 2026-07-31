@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "f8192b69-80c4-490c-bc65-39747e908b15")
 	(paper "A4")
 	(title_block
-		(title "OSCAR Audio 01 V2")
+		(title "OSCAR Audio 01 V2.1")
 		(date "2025-05-30")
-		(rev "2.1")
+		(rev "1.0")
 		(company "DAD Design")
 	)
 	(lib_symbols
@@ -15,8 +15,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "PS"
 				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,6 +30,8 @@
 			)
 			(property "Value" "A1209S 2W"
 				(at 1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,49 +41,59 @@
 			)
 			(property "Footprint" "@Projet:Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT"
 				(at -26.67 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 26.67 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "DC/DC isolated Converter module"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "*XP?POWER?IHxxxxS*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "A1209S_0_0"
@@ -199,24 +215,6 @@
 			)
 			(symbol "A1209S_1_0"
 				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+9V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "-9V"
@@ -234,6 +232,24 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+9V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -241,8 +257,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "PS"
 				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -252,6 +272,8 @@
 			)
 			(property "Value" "B1209S"
 				(at 1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -261,49 +283,59 @@
 			)
 			(property "Footprint" "@Projet:Converter_DCDC_TRACO_TBA2-xxxx_Single_THT"
 				(at -26.67 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 26.67 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
 				)
 			)
 			(property "Description" "Isolated DC/DC Converter Module, Output Voltage +9V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "DC/DC isolated Converter module 9V"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "*XP?POWER?IHxxxxS*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "B1209S_0_0"
@@ -407,24 +439,6 @@
 			)
 			(symbol "B1209S_1_0"
 				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+9V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "0V"
@@ -435,6 +449,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+9V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -455,8 +487,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FB"
 				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -466,6 +502,8 @@
 			)
 			(property "Value" "FerriteBead_Small"
 				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -475,47 +513,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Ferrite bead, small symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "L ferrite bead inductor filter"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "FerriteBead_Small_0_1"
@@ -560,7 +608,7 @@
 				(pin power_in line
 					(at 0 2.54 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -578,7 +626,7 @@
 				(pin power_out line
 					(at 0 -2.54 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -603,8 +651,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -614,6 +666,8 @@
 			)
 			(property "Value" "OPA1612"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -623,33 +677,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/product/OPA1612"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Audio Operational Amplifier with 1.1nV/√Hz Noise, Low THD and Precision"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -658,20 +720,24 @@
 			)
 			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "OPA1612_1_1"
@@ -687,17 +753,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -723,17 +789,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -794,7 +860,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -811,24 +877,6 @@
 				)
 			)
 			(symbol "OPA1612_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -847,6 +895,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -857,8 +923,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -868,6 +938,8 @@
 			)
 			(property "Value" "OPA1644"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -877,33 +949,41 @@
 			)
 			(property "Footprint" ""
 				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/product/OPA1644"
 				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Quad SoundPlus High Performance Audio Operational Amplifiers, SOIC-14"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -912,20 +992,24 @@
 			)
 			(property "ki_keywords" "quad opamp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "OPA1644_1_1"
@@ -941,17 +1025,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -977,17 +1061,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1048,7 +1132,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1077,17 +1161,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1113,17 +1197,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1184,7 +1268,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1244,8 +1328,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -6.096 25.654 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1254,6 +1342,8 @@
 			)
 			(property "Value" "PCM3060"
 				(at -6.096 22.606 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1262,33 +1352,41 @@
 			)
 			(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 				(at -54.61 -60.198 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/pcm3060"
 				(at -54.61 -57.404 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "24-bit Asynchronous Stereo Audio Codec with 96/192kHz sampling rate, TSSOP-28"
 				(at -1.016 -44.958 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1297,20 +1395,24 @@
 			)
 			(property "ki_keywords" "audio codec 2ch 24bit 192kHz"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "TSSOP*4.4x9.7mm*P0.65mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PCM3060_1_1"
@@ -1349,35 +1451,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -13.97 12.7 0)
+				(pin output line
+					(at -13.97 -22.86 0)
 					(length 2.54)
-					(name "V_{IN}L"
+					(name "ZEROR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 10.16 0)
-					(length 2.54)
-					(name "V_{IN}R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1386,16 +1470,16 @@
 					)
 				)
 				(pin output line
-					(at -13.97 1.27 0)
+					(at -13.97 -26.67 0)
 					(length 2.54)
-					(name "V_{COM}"
+					(name "ZEROL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1476,16 +1560,16 @@
 					)
 				)
 				(pin output line
-					(at -13.97 -22.86 0)
+					(at -13.97 1.27 0)
 					(length 2.54)
-					(name "ZEROR"
+					(name "V_{COM}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1493,17 +1577,35 @@
 						)
 					)
 				)
-				(pin output line
-					(at -13.97 -26.67 0)
+				(pin input line
+					(at -13.97 12.7 0)
 					(length 2.54)
-					(name "ZEROL"
+					(name "V_{IN}L"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 10.16 0)
+					(length 2.54)
+					(name "V_{IN}R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1529,6 +1631,42 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -12.7 180)
+					(length 2.54)
+					(name "MC/SCL/FMT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -6.35 180)
+					(length 2.54)
+					(name "MD/SDA/DEMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
 					)
 				)
@@ -1605,34 +1743,16 @@
 					)
 				)
 				(pin input line
-					(at -12.7 -2.54 0)
+					(at -12.7 -13.97 0)
 					(length 2.54)
-					(name "DIN"
+					(name "SCKI2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -6.35 0)
-					(length 2.54)
-					(name "LRCK2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1658,17 +1778,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -13.97 0)
+				(pin bidirectional line
+					(at -12.7 -6.35 0)
 					(length 2.54)
-					(name "SCKI2"
+					(name "LRCK2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1677,16 +1797,16 @@
 					)
 				)
 				(pin input line
-					(at 22.86 13.97 180)
+					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "MODE"
+					(name "DIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1730,35 +1850,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 22.86 -6.35 180)
-					(length 2.54)
-					(name "MD/SDA/DEMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at 22.86 -12.7 180)
+					(at 22.86 13.97 180)
 					(length 2.54)
-					(name "MC/SCL/FMT"
+					(name "MODE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1824,16 +1926,16 @@
 					)
 				)
 				(pin power_in line
-					(at -13.97 -6.35 0)
+					(at -13.97 -20.32 0)
 					(length 2.54)
-					(name "V_{CC}"
+					(name "SGND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1878,16 +1980,16 @@
 					)
 				)
 				(pin power_in line
-					(at -13.97 -20.32 0)
+					(at -13.97 -6.35 0)
 					(length 2.54)
-					(name "SGND"
+					(name "V_{CC}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1905,8 +2007,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -4.318 9.652 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1915,6 +2021,8 @@
 			)
 			(property "Value" "PGA2310"
 				(at -1.524 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1923,33 +2031,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/product/PGA2310"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "+/-15-V stereo audio volume control with low gain error (0.05)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1982,17 +2098,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 3.048)
-					(name "AINL"
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.794)
+					(name "AOUTL"
 						(effects
 							(font
 								(size 0.762 0.762)
 							)
 						)
 					)
-					(number "16"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2018,17 +2134,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 2.794)
-					(name "AOUTL"
+				(pin input line
+					(at -8.89 0 0)
+					(length 3.048)
+					(name "AINL"
 						(effects
 							(font
 								(size 0.762 0.762)
 							)
 						)
 					)
-					(number "14"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2132,16 +2248,16 @@
 					)
 				)
 				(pin input line
-					(at -12.7 2.54 0)
+					(at -12.7 -13.97 0)
 					(length 5.08)
-					(name "SDATAI"
+					(name "ZCEN"
 						(effects
 							(font
 								(size 0.762 0.762)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2168,6 +2284,24 @@
 					)
 				)
 				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "SDATAI"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -12.7 -5.08 0)
 					(length 5.08)
 					(name "SCLK"
@@ -2178,42 +2312,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "MUTE"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -13.97 0)
-					(length 5.08)
-					(name "ZCEN"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2232,6 +2330,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "MUTE"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2335,8 +2451,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2346,6 +2466,8 @@
 			)
 			(property "Value" "NE5532"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2355,33 +2477,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2390,20 +2520,24 @@
 			)
 			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "NE5532_1_1"
@@ -2419,17 +2553,17 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2455,17 +2589,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2526,7 +2660,7 @@
 				(pin output line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2543,24 +2677,6 @@
 				)
 			)
 			(symbol "NE5532_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -2579,6 +2695,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -2590,8 +2724,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J7"
 				(at -6.35 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2600,6 +2738,8 @@
 			)
 			(property "Value" "+12V"
 				(at -6.35 0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2608,33 +2748,41 @@
 			)
 			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2643,20 +2791,24 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x02_Pin_1_1_1"
@@ -2753,8 +2905,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J16"
 				(at 0.635 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2763,6 +2919,8 @@
 			)
 			(property "Value" "+12V"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2771,33 +2929,41 @@
 			)
 			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2806,20 +2972,24 @@
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x02_Pin_1_1"
@@ -2919,8 +3089,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2929,6 +3103,8 @@
 			)
 			(property "Value" "TestPoint"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2937,47 +3113,57 @@
 			)
 			(property "Footprint" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "test point"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "TestPoint_0_1"
@@ -3025,8 +3211,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3036,6 +3226,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3045,47 +3237,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -3118,7 +3320,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3136,7 +3338,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3164,8 +3366,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3175,6 +3381,8 @@
 			)
 			(property "Value" "C_Polarized"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3184,47 +3392,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Polarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "CP_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_Polarized_0_1"
@@ -3279,7 +3497,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3297,7 +3515,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3325,8 +3543,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3335,6 +3557,8 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3343,47 +3567,57 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_0_1"
@@ -3403,7 +3637,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3421,7 +3655,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3446,8 +3680,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3456,6 +3694,8 @@
 			)
 			(property "Value" "L78L05_SOT89"
 				(at -0.635 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3465,48 +3705,58 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
 				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Voltage Regulator 100mA Positive"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOT?89*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "L78L05_SOT89_0_1"
@@ -3523,17 +3773,17 @@
 				)
 			)
 			(symbol "L78L05_SOT89_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "IN"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3559,17 +3809,17 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "OUT"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3587,8 +3837,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3597,6 +3851,8 @@
 			)
 			(property "Value" "LM317_SOT-223"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3606,48 +3862,58 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LM317_SOT-223_0_1"
@@ -3664,24 +3930,6 @@
 				)
 			)
 			(symbol "LM317_SOT-223_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -3718,6 +3966,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3728,8 +3994,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -3.81 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3738,6 +4008,8 @@
 			)
 			(property "Value" "LM337_SOT223"
 				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3747,48 +4019,58 @@
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm337-n.pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Negative 1A 35V Adjustable Linear Regulator, SOT-223"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "Adjustable Voltage Regulator 1A Negative"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SOT?223*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "LM337_SOT223_0_1"
@@ -3805,24 +4087,6 @@
 				)
 			)
 			(symbol "LM337_SOT223_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 7.62 270)
 					(length 2.54)
@@ -3834,6 +4098,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3863,7 +4145,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+5VA"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -3874,17 +4156,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+5VA"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3893,38 +4181,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5VA\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+5VA_0_1"
@@ -3969,7 +4265,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3988,7 +4284,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+5VD"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -3999,17 +4295,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+5VD"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4018,38 +4320,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5VD\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+5VD_0_1"
@@ -4094,7 +4404,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4113,7 +4423,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:-5VA"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -4124,17 +4434,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "-5VA"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4143,45 +4459,53 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"-5VA\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "-5VA_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4214,7 +4538,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GNDA"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -4225,17 +4549,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GNDA"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4244,38 +4574,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GNDA_0_1"
@@ -4296,7 +4634,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4315,7 +4653,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GNDD"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -4326,17 +4664,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GNDD"
 				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4345,38 +4689,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GNDD_0_1"
@@ -4408,7 +4760,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4437,7 +4789,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 3feccc2d-25ef-40b4-b9ed-62f056b3751a)
+		(uuid "3feccc2d-25ef-40b4-b9ed-62f056b3751a")
 	)
 	(text "Option\n1M and 100n\nor\nR0"
 		(exclude_from_sim no)
@@ -6560,12 +6912,14 @@
 		(uuid "72cd7c79-eb86-4824-b988-dd3cfa59afe2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.4371 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6582,12 +6936,14 @@
 		(uuid "d0ef052e-d200-4853-804b-f09530a64695")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.2739 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6604,12 +6960,14 @@
 		(uuid "f4e064bc-2e8c-4695-abeb-9c21b469ca8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.0138 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -6617,23 +6975,29 @@
 		(lib_id "power:-5VA")
 		(at 177.8 48.26 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "027ec888-933c-41f2-9ff3-8aca96b7078e")
 		(property "Reference" "#PWR015"
 			(at 181.61 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "-5VA"
 			(at 173.99 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,36 +7007,42 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5VA\""
 			(at 177.8 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "088f031e-0c1a-42fa-b94f-5ebe9490f80d")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR015")
 					(unit 1)
@@ -6684,14 +7054,18 @@
 		(lib_id "Device:R")
 		(at 124.46 99.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0571215c-1fea-4451-966f-fa8462c3a503")
 		(property "Reference" "R49"
 			(at 127 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6701,6 +7075,8 @@
 		)
 		(property "Value" "1M"
 			(at 127 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,29 +7086,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 122.682 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 124.46 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6742,7 +7124,7 @@
 			(uuid "7ccd109e-eaaa-42b0-8298-fc3f435b79d6")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "R49")
 					(unit 1)
@@ -6754,14 +7136,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 132.08 44.45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0de6c466-2144-4acb-98bd-143d58c2946b")
 		(property "Reference" "C29"
 			(at 135.89 42.2909 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,6 +7157,8 @@
 		)
 		(property "Value" "10u Tal"
 			(at 135.89 44.8309 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,29 +7168,35 @@
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 133.0452 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6812,7 +7206,7 @@
 			(uuid "2dd00385-a433-4503-9c5d-75e20617e884")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C29")
 					(unit 1)
@@ -6824,23 +7218,29 @@
 		(lib_id "power:-5VA")
 		(at 177.8 158.75 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1009e44e-73e4-4fca-be94-d82970e73d36")
 		(property "Reference" "#PWR030"
 			(at 181.61 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "-5VA"
 			(at 173.99 158.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,36 +7250,42 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5VA\""
 			(at 177.8 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "bd2583f7-0db7-48a2-b6ff-46eb17600fcc")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR030")
 					(unit 1)
@@ -6892,13 +7298,17 @@
 		(at 251.46 143.51 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "12784f40-1ee9-4517-9656-f02f52b4adf9")
 		(property "Reference" "C42"
 			(at 249.682 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,6 +7318,8 @@
 		)
 		(property "Value" "100n"
 			(at 249.428 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,29 +7329,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 250.4948 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 251.46 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 251.46 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6949,7 +7367,7 @@
 			(uuid "8fe93d23-8d03-4bfb-9e3f-5f635497df92")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C42")
 					(unit 1)
@@ -6961,14 +7379,18 @@
 		(lib_id "Device:C")
 		(at 124.46 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1592046f-2a25-48ea-aca7-d5f102bdb661")
 		(property "Reference" "C45"
 			(at 128.27 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,6 +7400,8 @@
 		)
 		(property "Value" "100n"
 			(at 128.27 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,29 +7411,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.4252 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 124.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 124.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7019,7 +7449,7 @@
 			(uuid "bdd0c244-677b-4778-991a-ba1ae6e05b12")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C45")
 					(unit 1)
@@ -7031,14 +7461,18 @@
 		(lib_id "Regulator_Linear:LM317_SOT-223")
 		(at 95.25 35.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f0cecb-0381-40b9-bf26-b80fc6d02b1d")
 		(property "Reference" "U6"
 			(at 95.25 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,6 +7481,8 @@
 		)
 		(property "Value" "LM317_SOT-223"
 			(at 95.25 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7055,30 +7491,36 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 95.25 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
 			(at 95.25 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
 			(at 95.25 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7091,7 +7533,7 @@
 			(uuid "7b69ae6d-e2cd-4feb-bcc9-f08d648898cf")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U6")
 					(unit 1)
@@ -7103,14 +7545,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 132.08 63.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29c2eb5d-e4f9-4131-894e-f8d7a844a2ac")
 		(property "Reference" "C32"
 			(at 135.89 61.3409 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,6 +7566,8 @@
 		)
 		(property "Value" "10u Tal"
 			(at 135.89 63.8809 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,29 +7577,35 @@
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 133.0452 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 132.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7161,7 +7615,7 @@
 			(uuid "de909339-e6aa-4914-914a-1ead83493cf9")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C32")
 					(unit 1)
@@ -7173,13 +7627,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 190.5 63.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a72782a-bd60-42ac-b949-341843d0c998")
 		(property "Reference" "TP1"
 			(at 188.722 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,6 +7647,8 @@
 		)
 		(property "Value" "GNDA"
 			(at 193.04 61.4679 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,36 +7658,42 @@
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
 			(at 195.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 195.58 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "2a3a42a0-c66a-4d2b-b2ec-ace2c2df0793")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "TP1")
 					(unit 1)
@@ -7239,13 +7705,17 @@
 		(lib_id "Device:C_Polarized")
 		(at 223.52 113.03 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a865659-100b-4407-82d5-65c19311e42a")
 		(property "Reference" "C36"
 			(at 227.33 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,6 +7725,8 @@
 		)
 		(property "Value" "10u Tal"
 			(at 227.33 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,29 +7736,35 @@
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 224.4852 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 223.52 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 223.52 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7296,7 +7774,7 @@
 			(uuid "ca8c32c7-3330-4bb3-b1da-8c0d911dc824")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C36")
 					(unit 1)
@@ -7308,14 +7786,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 123.19 139.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d8a0060-f642-49bb-84f2-ee2741a329e0")
 		(property "Reference" "C37"
 			(at 127 137.5409 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,6 +7807,8 @@
 		)
 		(property "Value" "20u"
 			(at 127 140.0809 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,29 +7818,35 @@
 		)
 		(property "Footprint" "@Projet:CP_Elec_5x5.4_WM"
 			(at 124.1552 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 123.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 123.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7366,7 +7856,7 @@
 			(uuid "f658cc99-f665-4aac-885f-77ea2861b5a4")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C37")
 					(unit 1)
@@ -7378,13 +7868,17 @@
 		(lib_id "Device:C")
 		(at 245.11 43.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "315c80d8-b363-4eee-af30-e91d7091cefd")
 		(property "Reference" "C26"
 			(at 246.888 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,6 +7888,8 @@
 		)
 		(property "Value" "100n"
 			(at 247.142 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,29 +7899,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.0752 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 245.11 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7447,13 +7949,17 @@
 		(lib_id "Connector:TestPoint")
 		(at 185.42 63.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d5cdbc4-acd8-472f-829f-7a11fc95dfdb")
 		(property "Reference" "TP2"
 			(at 183.642 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,6 +7969,8 @@
 		)
 		(property "Value" "GNDA"
 			(at 178.308 61.722 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7472,36 +7980,42 @@
 		)
 		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm"
 			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "test point"
 			(at 185.42 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1c91e9c4-e76e-4637-8bc8-28f8c5cd126d")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "TP2")
 					(unit 1)
@@ -7513,13 +8027,17 @@
 		(lib_id "Device:C")
 		(at 182.88 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "42aa8438-a352-46e0-afdf-790b85c2d71d")
 		(property "Reference" "C43"
 			(at 184.658 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,6 +8047,8 @@
 		)
 		(property "Value" "100n"
 			(at 184.912 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,29 +8058,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 183.8452 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 182.88 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7570,7 +8096,7 @@
 			(uuid "c8e906d6-eba7-4ff1-ac0e-3ef079d1ec47")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C43")
 					(unit 1)
@@ -7582,23 +8108,29 @@
 		(lib_id "power:GNDD")
 		(at 114.3 115.57 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a30f675-3af1-47ea-8cf6-dc4a7bb96abb")
 		(property "Reference" "#PWR031"
 			(at 114.3 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDD"
 			(at 114.3 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,36 +8139,42 @@
 		)
 		(property "Footprint" ""
 			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 114.3 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6d04fb5f-0bcf-48cb-af89-d59104952df9")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR031")
 					(unit 1)
@@ -7648,14 +8186,18 @@
 		(lib_id "@Projet:PCM3060")
 		(at 257.81 99.06 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d398fad-1bb0-497b-839a-515f7fb87df0")
 		(property "Reference" "U3"
 			(at 264.16 100.9649 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,6 +8207,8 @@
 		)
 		(property "Value" "PCM3060"
 			(at 264.16 103.5049 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,29 +8218,35 @@
 		)
 		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 			(at 203.2 159.258 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/pcm3060"
 			(at 203.2 156.464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "24-bit Asynchronous Stereo Audio Codec with 96/192kHz sampling rate, TSSOP-28"
 			(at 256.794 144.018 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "25"
@@ -7784,7 +8334,7 @@
 			(uuid "b2c5a82a-20ee-4d30-8a46-4c9e900a8367")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U3")
 					(unit 3)
@@ -7796,14 +8346,18 @@
 		(lib_id "Device:R")
 		(at 106.68 68.58 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e15a373-03c5-4886-928f-b3721cb9b6b4")
 		(property "Reference" "R48"
 			(at 109.22 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7813,6 +8367,8 @@
 		)
 		(property "Value" "120 0.1%"
 			(at 109.22 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,29 +8378,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 104.902 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 106.68 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 106.68 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7866,14 +8428,18 @@
 		(lib_id "@Projet:FerriteBead_Small")
 		(at 142.24 35.56 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5203c2d6-dd55-4ebe-b0bc-256fc9f41b3c")
 		(property "Reference" "FB2"
 			(at 142.2019 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,37 +8448,45 @@
 		)
 		(property "Value" "FerriteBead_Small"
 			(at 142.2019 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 142.24 37.338 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 142.24 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 142.24 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7922,7 +8496,7 @@
 			(uuid "63604f04-3faa-4c38-a9b9-08f65fe111e2")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "FB2")
 					(unit 1)
@@ -7934,14 +8508,18 @@
 		(lib_id "@Projet:B1209S")
 		(at 58.42 139.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5240b1e5-f4cc-4ebd-8f27-546d3c156bb4")
 		(property "Reference" "PS2"
 			(at 58.42 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,6 +8528,8 @@
 		)
 		(property "Value" "B1209S"
 			(at 58.42 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7958,31 +8538,37 @@
 		)
 		(property "Footprint" "@Projet:Converter_DCDC_TRACO_TBA2-xxxx_Single_THT"
 			(at 31.75 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 85.09 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "Isolated DC/DC Converter Module, Output Voltage +9V"
 			(at 58.42 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7998,7 +8584,7 @@
 			(uuid "5a997186-a0f4-4637-916a-7b2bdbf249d6")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "PS2")
 					(unit 1)
@@ -8010,14 +8596,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 195.58 143.51 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54a8a5ae-34cd-436d-8655-f60059a6df2a")
 		(property "Reference" "C41"
 			(at 199.39 141.3509 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,6 +8617,8 @@
 		)
 		(property "Value" "10u tal"
 			(at 199.39 143.8909 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,29 +8628,35 @@
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 196.5452 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 195.58 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 195.58 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8068,7 +8666,7 @@
 			(uuid "e62d9973-c742-413b-89b1-037a3d4e84ea")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C41")
 					(unit 1)
@@ -8080,14 +8678,18 @@
 		(lib_id "@Projet:A1209S")
 		(at 58.42 54.61 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "573bc552-bd17-4a4f-ac53-b8132d089c4b")
 		(property "Reference" "PS1"
 			(at 58.42 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8096,6 +8698,8 @@
 		)
 		(property "Value" "A1209S 2W"
 			(at 58.42 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8104,31 +8708,37 @@
 		)
 		(property "Footprint" "@Projet:Converter_DCDC_TRACO_TBA2-xxxx_Dual_THT"
 			(at 31.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 85.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Description" "2W, 1000 VDC Isolated DC/DC Converter Module, Dual Output Voltage ±9V"
 			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8147,7 +8757,7 @@
 			(uuid "0d4fae82-5be8-4e2c-8dad-57e3880fac6d")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "PS1")
 					(unit 1)
@@ -8159,13 +8769,17 @@
 		(lib_id "@Projet:FerriteBead_Small")
 		(at 33.02 41.91 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "59b67ff1-9f22-4c86-a6eb-e4c97017cbf5")
 		(property "Reference" "FB3"
 			(at 25.654 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,6 +8789,8 @@
 		)
 		(property "Value" "FerriteBead"
 			(at 20.32 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,29 +8800,35 @@
 		)
 		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 31.242 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 33.02 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 33.02 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8216,7 +8838,7 @@
 			(uuid "86c9c488-74c8-4604-8d19-9af487b42470")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "FB3")
 					(unit 1)
@@ -8228,13 +8850,17 @@
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 24.13 31.75 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "633c1404-1e02-452b-893f-946c1a6b5124")
 		(property "Reference" "J8"
 			(at 17.78 29.718 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,6 +8869,8 @@
 		)
 		(property "Value" "+12V"
 			(at 18.288 32.258 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,29 +8879,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 24.13 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 24.13 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 24.13 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8295,13 +8929,17 @@
 		(lib_id "Device:C")
 		(at 245.11 33.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "69531b76-d425-4b40-827b-1dfab4ee042a")
 		(property "Reference" "C23"
 			(at 246.888 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,6 +8949,8 @@
 		)
 		(property "Value" "100n"
 			(at 247.142 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8320,29 +8960,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.0752 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 245.11 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8364,23 +9010,29 @@
 		(lib_id "power:+5VA")
 		(at 177.8 27.94 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c3e51b2-483f-4a40-bc3d-97648dff4bd5")
 		(property "Reference" "#PWR010"
 			(at 181.61 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5VA"
 			(at 173.99 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,36 +9042,42 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
 			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "46f0a793-7d4b-45e9-8936-81864cc7d934")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR010")
 					(unit 1)
@@ -8431,14 +9089,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 77.47 44.45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6de71e4b-41e8-4d6a-b366-98c54b4b4bac")
 		(property "Reference" "C27"
 			(at 81.28 42.2909 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,6 +9110,8 @@
 		)
 		(property "Value" "100u"
 			(at 81.28 44.8309 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,29 +9121,35 @@
 		)
 		(property "Footprint" "@Projet:CP_Elec_6.3x9.9_WM"
 			(at 78.4352 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 77.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 77.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8489,7 +9159,7 @@
 			(uuid "bd0bcc2e-8229-4b42-8450-5f32c3a401d1")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C27")
 					(unit 1)
@@ -8501,14 +9171,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 82.55 139.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6efcde13-1cee-4276-b8e8-50c413d0882c")
 		(property "Reference" "C38"
 			(at 86.36 137.5409 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,6 +9192,8 @@
 		)
 		(property "Value" "100u"
 			(at 86.36 140.0809 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,29 +9203,35 @@
 		)
 		(property "Footprint" "@Projet:CP_Elec_6.3x9.9_WM"
 			(at 83.5152 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 82.55 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 82.55 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8559,7 +9241,7 @@
 			(uuid "0f95dc33-c34c-4b90-b024-c352c1bd008a")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C38")
 					(unit 1)
@@ -8571,14 +9253,18 @@
 		(lib_id "Regulator_Linear:L78L05_SOT89")
 		(at 104.14 133.35 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70603e89-5224-4e56-92f9-1097157feeb2")
 		(property "Reference" "U8"
 			(at 104.14 127 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,6 +9273,8 @@
 		)
 		(property "Value" "L78L05_SOT89"
 			(at 104.14 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,30 +9283,36 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 			(at 104.14 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
 			(at 104.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
 			(at 104.14 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -8631,7 +9325,7 @@
 			(uuid "ff2bf57c-241d-49ee-bfff-42ae103e11f6")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U8")
 					(unit 1)
@@ -8643,14 +9337,18 @@
 		(lib_id "Device:R")
 		(at 114.3 105.41 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71125e02-c5d2-40f3-9f6e-151c6a719235")
 		(property "Reference" "R50"
 			(at 116.84 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,6 +9358,8 @@
 		)
 		(property "Value" "0"
 			(at 116.84 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,29 +9369,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 112.522 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 114.3 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8701,7 +9407,7 @@
 			(uuid "518dcfe1-6c7e-41af-88e7-02f733d2585d")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "R50")
 					(unit 1)
@@ -8713,23 +9419,29 @@
 		(lib_id "power:GNDA")
 		(at 179.07 148.59 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75ec3b15-2353-4584-baab-b2c407cd6286")
 		(property "Reference" "#PWR027"
 			(at 172.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 175.26 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,36 +9451,42 @@
 		)
 		(property "Footprint" ""
 			(at 179.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 179.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 179.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "356515e5-a8f2-4ade-8fd8-e0990976561a")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR027")
 					(unit 1)
@@ -8780,13 +9498,17 @@
 		(lib_id "Device:C")
 		(at 214.63 33.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c7a4784-a67b-456d-a66a-014780622f4e")
 		(property "Reference" "C22"
 			(at 216.408 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,6 +9518,8 @@
 		)
 		(property "Value" "100n"
 			(at 216.662 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,29 +9529,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.5952 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 214.63 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8837,7 +9567,7 @@
 			(uuid "4aa9ec3f-25ce-4e19-b71c-d386800bb2d7")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C22")
 					(unit 1)
@@ -8849,14 +9579,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 195.58 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e8084db-47c0-48dd-988f-cb2157223e56")
 		(property "Reference" "C44"
 			(at 199.39 151.5109 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,6 +9600,8 @@
 		)
 		(property "Value" "10u tal"
 			(at 199.39 154.0509 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,29 +9611,35 @@
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 196.5452 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 195.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 195.58 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8907,7 +9649,7 @@
 			(uuid "853ba86e-41ab-43f3-b97f-b4076599acbf")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C44")
 					(unit 1)
@@ -8920,13 +9662,17 @@
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 24.13 25.4 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "802729a2-4857-4266-a0b4-abf300d90d03")
 		(property "Reference" "J7"
 			(at 17.78 21.844 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,6 +9681,8 @@
 		)
 		(property "Value" "+12V"
 			(at 17.78 24.638 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,29 +9691,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 24.13 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 24.13 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 24.13 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8975,7 +9729,7 @@
 			(uuid "60cfc5ec-39f2-4ef5-b379-e9c44d56e15d")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "J7")
 					(unit 1)
@@ -8987,23 +9741,29 @@
 		(lib_id "power:GNDA")
 		(at 177.8 38.1 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80df14da-f7c9-4463-9353-b6e3eeb293b2")
 		(property "Reference" "#PWR012"
 			(at 171.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 173.99 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,36 +9773,42 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 177.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f1a0e23b-fe60-4ed8-b3e2-aaa790e0b5b3")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR012")
 					(unit 1)
@@ -9054,14 +9820,18 @@
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 228.6 38.1 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "823653fc-8ede-4b81-90a7-daca6edfa10e")
 		(property "Reference" "U4"
 			(at 227.33 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,6 +9841,8 @@
 		)
 		(property "Value" "NE5532"
 			(at 227.33 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,29 +9852,35 @@
 		)
 		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 228.6 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
 			(at 228.6 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
 			(at 228.6 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9130,7 +9908,7 @@
 			(uuid "327185b9-0c89-4301-be3a-0e600e637661")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U4")
 					(unit 3)
@@ -9143,13 +9921,17 @@
 		(at 213.36 91.44 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8480aa19-d584-4ec8-9915-63729eafaf8e")
 		(property "Reference" "C33"
 			(at 207.518 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,6 +9941,8 @@
 		)
 		(property "Value" "100n"
 			(at 208.788 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,29 +9952,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 212.3948 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 213.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 213.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9200,7 +9990,7 @@
 			(uuid "adc820d5-773f-402c-a264-5bce5eea43c1")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C33")
 					(unit 1)
@@ -9212,13 +10002,17 @@
 		(lib_id "Device:C")
 		(at 181.61 33.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "853e897b-57bc-45bc-b4f2-2b9f9c84bcc3")
 		(property "Reference" "C21"
 			(at 183.388 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,6 +10022,8 @@
 		)
 		(property "Value" "100n"
 			(at 183.642 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,29 +10033,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 182.5752 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 181.61 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 181.61 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9269,7 +10071,7 @@
 			(uuid "67521a16-8416-436b-ae76-6fda9340b983")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C21")
 					(unit 1)
@@ -9281,23 +10083,29 @@
 		(lib_id "power:GNDA")
 		(at 114.3 91.44 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "867c1aee-deab-478b-86f0-8f3ce9e391f6")
 		(property "Reference" "#PWR029"
 			(at 114.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 114.3 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,36 +10114,42 @@
 		)
 		(property "Footprint" ""
 			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 114.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "19dda8f3-2b74-4d9d-b89a-38092e39f242")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR029")
 					(unit 1)
@@ -9347,14 +10161,18 @@
 		(lib_id "@Projet:OPA1644")
 		(at 257.81 38.1 0)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8690e929-d622-4296-bea4-0e59406f6cac")
 		(property "Reference" "U2"
 			(at 256.54 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,6 +10182,8 @@
 		)
 		(property "Value" "OPA1644"
 			(at 256.54 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,29 +10193,35 @@
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 256.54 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/OPA1644"
 			(at 259.08 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Quad SoundPlus High Performance Audio Operational Amplifiers, SOIC-14"
 			(at 257.81 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "13"
@@ -9441,7 +10267,7 @@
 			(uuid "ffc49b51-a2c9-40cd-ac7b-eca68d052d97")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U2")
 					(unit 5)
@@ -9453,23 +10279,29 @@
 		(lib_id "power:+5VA")
 		(at 177.8 138.43 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877ec008-e8f7-455a-b750-0a64e1827335")
 		(property "Reference" "#PWR025"
 			(at 181.61 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5VA"
 			(at 173.99 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,36 +10311,42 @@
 		)
 		(property "Footprint" ""
 			(at 177.8 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 177.8 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
 			(at 177.8 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3c0d00e1-294a-45e5-9af5-bab19b9efc00")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR025")
 					(unit 1)
@@ -9520,23 +10358,29 @@
 		(lib_id "power:+5VD")
 		(at 137.16 133.35 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf7fca9-eb17-4242-b6f6-a16c84254b17")
 		(property "Reference" "#PWR021"
 			(at 133.35 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5VD"
 			(at 140.97 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,36 +10390,42 @@
 		)
 		(property "Footprint" ""
 			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
 			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "aa3fa863-bb58-4e77-ae10-3f32fc8e42cf")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR021")
 					(unit 1)
@@ -9587,23 +10437,29 @@
 		(lib_id "power:GNDA")
 		(at 199.39 66.04 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8db759d0-8c65-477a-beba-0412c5cebb5d")
 		(property "Reference" "#PWR018"
 			(at 205.74 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 203.2 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,29 +10469,35 @@
 		)
 		(property "Footprint" ""
 			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 199.39 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9654,14 +10516,18 @@
 		(lib_id "@Projet:OPA1612")
 		(at 196.85 38.1 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90bde0fe-d347-495e-9583-3473e211c7d4")
 		(property "Reference" "U1"
 			(at 195.58 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,6 +10537,8 @@
 		)
 		(property "Value" "OPA1642"
 			(at 195.58 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9680,29 +10548,35 @@
 		)
 		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 196.85 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/OPA1612"
 			(at 196.85 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Audio Operational Amplifier with 1.1nV/√Hz Noise, Low THD and Precision"
 			(at 196.85 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9730,7 +10604,7 @@
 			(uuid "85a12780-1fb3-41fa-9267-8ac767588a73")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U1")
 					(unit 3)
@@ -9743,13 +10617,17 @@
 		(at 226.06 139.7 0)
 		(mirror y)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "95db27f1-a52e-4245-b792-078a6732f797")
 		(property "Reference" "U5"
 			(at 224.536 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,6 +10636,8 @@
 		)
 		(property "Value" "PGA2310"
 			(at 226.06 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,29 +10646,35 @@
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 226.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/PGA2310"
 			(at 226.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "+/-15-V stereo audio volume control with low gain error (0.05)"
 			(at 226.06 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -9840,7 +10726,7 @@
 			(uuid "4d86bd74-e012-44d1-905e-1da6a1cad28d")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U5")
 					(unit 4)
@@ -9852,23 +10738,29 @@
 		(lib_id "power:GNDA")
 		(at 207.01 119.38 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "969f6271-4c13-4974-926e-3dbfd68da0ca")
 		(property "Reference" "#PWR022"
 			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 203.2 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,36 +10770,42 @@
 		)
 		(property "Footprint" ""
 			(at 207.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 207.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 207.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "697b7392-6997-4103-9c61-a1d48ecc3d70")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR022")
 					(unit 1)
@@ -9919,23 +10817,29 @@
 		(lib_id "power:GNDA")
 		(at 245.11 38.1 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b8c74c5-1953-4f70-b46e-3fb74bcb223c")
 		(property "Reference" "#PWR014"
 			(at 238.76 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 241.3 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,29 +10849,35 @@
 		)
 		(property "Footprint" ""
 			(at 245.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 245.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 245.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9986,14 +10896,18 @@
 		(lib_id "@Projet:FerriteBead_Small")
 		(at 38.1 38.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b260d5-94d7-46d3-a184-2af44712e84b")
 		(property "Reference" "FB1"
 			(at 40.64 36.7918 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10003,6 +10917,8 @@
 		)
 		(property "Value" "FerriteBead"
 			(at 40.64 39.3318 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10012,29 +10928,35 @@
 		)
 		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 36.322 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10044,7 +10966,7 @@
 			(uuid "d3baf088-a839-4d57-8b18-151227de0c40")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "FB1")
 					(unit 1)
@@ -10056,13 +10978,17 @@
 		(lib_id "@Projet:FerriteBead_Small")
 		(at 143.51 73.66 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5999333-19c1-4f46-a6aa-14f60c0d85da")
 		(property "Reference" "FB4"
 			(at 143.764 77.724 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,37 +10997,45 @@
 		)
 		(property "Value" "FerriteBead_Small"
 			(at 143.256 80.264 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 143.51 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10111,7 +11045,7 @@
 			(uuid "d906dd11-70e0-4887-9f33-ad91a56b3727")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "FB4")
 					(unit 1)
@@ -10124,13 +11058,17 @@
 		(at 213.36 113.03 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0917831-de83-4c68-95eb-721e113215cc")
 		(property "Reference" "C35"
 			(at 208.026 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,6 +11078,8 @@
 		)
 		(property "Value" "100n"
 			(at 208.788 113.284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,29 +11089,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 212.3948 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 213.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10181,7 +11127,7 @@
 			(uuid "ca44a578-f402-4dbe-b09b-89ccde6ff0f7")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C35")
 					(unit 1)
@@ -10193,13 +11139,17 @@
 		(lib_id "Device:C")
 		(at 182.88 143.51 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0abf623-d818-4632-ae08-49ebbf509e20")
 		(property "Reference" "C40"
 			(at 184.658 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,6 +11159,8 @@
 		)
 		(property "Value" "100n"
 			(at 184.912 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,29 +11170,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 183.8452 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 182.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10250,7 +11208,7 @@
 			(uuid "dcba4ad0-0299-4d36-b314-1f69f7b189fd")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C40")
 					(unit 1)
@@ -10263,23 +11221,29 @@
 		(at 259.08 137.16 270)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b53618a1-de2a-4009-8c31-0eee1a121f78")
 		(property "Reference" "#PWR024"
 			(at 255.27 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5VD"
 			(at 262.89 137.1599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,36 +11253,42 @@
 		)
 		(property "Footprint" ""
 			(at 259.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 259.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
 			(at 259.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "13ab9b90-f768-43a9-a110-d098a71029fa")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR024")
 					(unit 1)
@@ -10330,14 +11300,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 120.65 44.45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bef2c3f7-9497-48c0-a52e-ef91d776bf57")
 		(property "Reference" "C28"
 			(at 124.46 42.2909 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,6 +11321,8 @@
 		)
 		(property "Value" "20u"
 			(at 124.46 44.8309 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,29 +11332,35 @@
 		)
 		(property "Footprint" "@Projet:CP_Elec_5x5.4_WM"
 			(at 121.6152 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 120.65 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10388,7 +11370,7 @@
 			(uuid "19ed3845-c74c-49b3-8a23-2ccd6db1c8fc")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C28")
 					(unit 1)
@@ -10400,13 +11382,17 @@
 		(lib_id "Device:C")
 		(at 181.61 43.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6d5c139-e910-4b39-862c-dbbe91abd21d")
 		(property "Reference" "C24"
 			(at 183.388 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,6 +11402,8 @@
 		)
 		(property "Value" "100n"
 			(at 183.642 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10425,29 +11413,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 182.5752 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10457,7 +11451,7 @@
 			(uuid "7162f620-28e8-4291-b6ff-7e605f023a76")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C24")
 					(unit 1)
@@ -10469,23 +11463,29 @@
 		(lib_id "power:GNDD")
 		(at 137.16 146.05 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7f680eb-cef8-4e90-a58b-620265c835d2")
 		(property "Reference" "#PWR07"
 			(at 143.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDD"
 			(at 140.97 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,29 +11495,35 @@
 		)
 		(property "Footprint" ""
 			(at 137.16 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 137.16 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 137.16 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10536,14 +11542,18 @@
 		(lib_id "Device:R")
 		(at 95.25 49.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d884b3f3-80c6-401f-9e2a-80b8e806ea33")
 		(property "Reference" "R46"
 			(at 97.79 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,6 +11563,8 @@
 		)
 		(property "Value" "360 0.1%"
 			(at 97.79 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,29 +11574,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 93.472 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10594,7 +11612,7 @@
 			(uuid "3924e9de-7fe1-4eeb-933f-26b523c37384")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "R46")
 					(unit 1)
@@ -10606,14 +11624,18 @@
 		(lib_id "Device:R")
 		(at 95.25 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daec1c4c-0c3c-49e8-b26a-69e9684d8c26")
 		(property "Reference" "R47"
 			(at 97.79 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,6 +11645,8 @@
 		)
 		(property "Value" "360 0.1%"
 			(at 97.79 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,29 +11656,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 93.472 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 95.25 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10677,23 +11707,29 @@
 		(at 259.08 149.86 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf0a822-9af9-4cc2-96c0-aa9acd90399a")
 		(property "Reference" "#PWR028"
 			(at 265.43 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDD"
 			(at 262.89 149.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10703,36 +11739,42 @@
 		)
 		(property "Footprint" ""
 			(at 259.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 259.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 259.08 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "c2f55e59-3905-4f7d-b3e7-0b1d75f2382e")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR028")
 					(unit 1)
@@ -10744,13 +11786,17 @@
 		(lib_id "Device:R")
 		(at 106.68 40.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc476c45-1966-4bec-8cfe-61b9276b7a26")
 		(property "Reference" "R45"
 			(at 109.474 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,6 +11806,8 @@
 		)
 		(property "Value" "120 0.1%"
 			(at 109.474 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,29 +11817,35 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 104.902 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 106.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor"
 			(at 106.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10801,7 +11855,7 @@
 			(uuid "201bd82d-17a5-47d3-93e6-4dd276d85b49")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "R45")
 					(unit 1)
@@ -10813,14 +11867,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 120.65 63.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfdbebee-7c37-4a3e-b0ad-ae7b15ae4139")
 		(property "Reference" "C31"
 			(at 124.46 61.3409 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10830,6 +11888,8 @@
 		)
 		(property "Value" "20u"
 			(at 124.46 63.8809 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10839,29 +11899,35 @@
 		)
 		(property "Footprint" "@Projet:CP_Elec_5x5.4_WM"
 			(at 121.6152 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 120.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10871,7 +11937,7 @@
 			(uuid "c0570750-6119-4635-be16-27e428ef3305")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C31")
 					(unit 1)
@@ -10883,14 +11949,18 @@
 		(lib_id "Device:C_Polarized")
 		(at 77.47 63.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0672291-12ab-4399-b804-c41e5fdde464")
 		(property "Reference" "C30"
 			(at 81.28 61.3409 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,6 +11970,8 @@
 		)
 		(property "Value" "100u"
 			(at 81.28 63.8809 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,29 +11981,35 @@
 		)
 		(property "Footprint" "@Projet:CP_Elec_6.3x9.9_WM"
 			(at 78.4352 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 77.47 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 77.47 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10941,7 +12019,7 @@
 			(uuid "8e8de560-50fb-434c-b646-9425ffc88678")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C30")
 					(unit 1)
@@ -10954,23 +12032,29 @@
 		(at 207.01 105.41 90)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e312fde3-e787-41e9-88cd-710a44aaaaae")
 		(property "Reference" "#PWR020"
 			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5VA"
 			(at 203.2 105.4099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,36 +12064,42 @@
 		)
 		(property "Footprint" ""
 			(at 207.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 207.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
 			(at 207.01 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3ede0edb-9ce3-4fa2-991f-346e7010a697")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR020")
 					(unit 1)
@@ -11021,23 +12111,29 @@
 		(lib_id "power:-5VA")
 		(at 147.32 73.66 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed3eb91d-b25c-4717-b442-755fd90c0a8d")
 		(property "Reference" "#PWR017"
 			(at 143.51 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "-5VA"
 			(at 151.13 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11047,36 +12143,42 @@
 		)
 		(property "Footprint" ""
 			(at 147.32 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 147.32 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5VA\""
 			(at 147.32 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6466d05f-f40c-4116-ac2e-ec9eaf9642ed")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR017")
 					(unit 1)
@@ -11088,23 +12190,29 @@
 		(lib_id "power:+5VA")
 		(at 147.32 35.56 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7206540-8bf0-4a3f-b8e4-5a6c957b5a05")
 		(property "Reference" "#PWR011"
 			(at 143.51 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5VA"
 			(at 151.13 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,36 +12222,42 @@
 		)
 		(property "Footprint" ""
 			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
 			(at 147.32 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "65e33a3b-52b5-4e05-b175-7c4436b4f6ef")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR011")
 					(unit 1)
@@ -11155,14 +12269,18 @@
 		(lib_id "Regulator_Linear:LM337_SOT223")
 		(at 95.25 73.66 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f892054f-8737-4e2b-9603-daf0ae368d93")
 		(property "Reference" "U7"
 			(at 95.25 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11171,6 +12289,8 @@
 		)
 		(property "Value" "LM337_SOT223"
 			(at 95.25 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11179,30 +12299,36 @@
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 95.25 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm337-n.pdf"
 			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Negative 1A 35V Adjustable Linear Regulator, SOT-223"
 			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -11215,7 +12341,7 @@
 			(uuid "98d1a96c-2a7f-4d5d-a3de-dea6badbf11c")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "U7")
 					(unit 1)
@@ -11227,23 +12353,29 @@
 		(lib_id "power:GNDA")
 		(at 148.59 54.61 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e68db3-9f34-492c-bf7d-450c6bbc39be")
 		(property "Reference" "#PWR016"
 			(at 154.94 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 152.4 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,36 +12385,42 @@
 		)
 		(property "Footprint" ""
 			(at 148.59 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 148.59 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 148.59 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "71768da2-8f1f-412f-b451-869f2a18f049")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR016")
 					(unit 1)
@@ -11294,13 +12432,17 @@
 		(lib_id "Device:C")
 		(at 214.63 43.18 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa40b902-e696-4bd1-8cc7-a4076a2dddec")
 		(property "Reference" "C25"
 			(at 216.408 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11310,6 +12452,8 @@
 		)
 		(property "Value" "100n"
 			(at 216.662 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,29 +12463,35 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.5952 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 214.63 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11351,7 +12501,7 @@
 			(uuid "c1d4b562-0985-4be5-9e2f-c978a6e75b40")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C25")
 					(unit 1)
@@ -11363,23 +12513,29 @@
 		(lib_id "power:GNDA")
 		(at 214.63 38.1 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb899fed-fbe9-4c2f-8d96-20a18dd5d302")
 		(property "Reference" "#PWR013"
 			(at 208.28 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GNDA"
 			(at 210.82 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,36 +12545,42 @@
 		)
 		(property "Footprint" ""
 			(at 214.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 214.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 214.63 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1c3764ae-fe55-4d3c-a912-3c0ebfc6be4c")
 		)
 		(instances
-			(project "PENDA-III-Hardware"
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "#PWR013")
 					(unit 1)
@@ -11430,13 +12592,17 @@
 		(lib_id "Device:C_Polarized")
 		(at 223.52 91.44 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fde4bf4d-8d99-475f-8e82-144f4eb4b7d2")
 		(property "Reference" "C34"
 			(at 227.076 87.376 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11446,6 +12612,8 @@
 		)
 		(property "Value" "10u Tal"
 			(at 227.076 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11455,29 +12623,35 @@
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 224.4852 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 223.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Polarized capacitor"
 			(at 223.52 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11487,7 +12661,7 @@
 			(uuid "02a1e26c-a012-436a-b6c0-7d0836c2e918")
 		)
 		(instances
-			(project ""
+			(project "OSCAR_Audio"
 				(path "/867ce2f3-3a95-4634-9d6e-934c4fecdc67/6bf698c6-17a5-4321-a583-f7347388cd71"
 					(reference "C34")
 					(unit 1)
